@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <<================= RUSSIAN BASICS =================>> -->
+
+    <!-- *** Level One *** -->
+    <string-array name="QRussian_BasicsLvl1">
+        <item>Это София</item>
+        <item>Я Брайан</item>
+        <item>Я Брайан,а Это София</item>
+        <item>мой учитель-Дима</item>
+        <item>Я русский студент</item>
+        <item>мой профессор преподает английский</item>
+        <item>Брайан-мой профессор</item>
+        <item>Это мой наставник</item>
+    </string-array>
+
+    <!-- *** Level Two *** -->
+    <string-array name="QRussian_BasicsLvl2">
+        <item>этот человек</item>
+        <item>Это моя женщина</item>
+        <item>Он мужчина</item>
+        <item>Она женщина, а он мужчина</item>
+        <item>Я понимаю человека</item>
+        <item>Моя семья здесь</item>
+        <item>Да, я здесь</item>
+        <item>моя мама здесь?</item>
+        <item>мой папа там</item>
+        <item>моя семья здесь?</item>
+    </string-array>
+
+    <!-- <<================= RUSSIAN BASICS2 =================>> -->
+    <string-array name="QRussian_Basics2">
+        <item>Доброе утро</item>
+        <item>Добрый день</item>
+        <item>Добрый вечер</item>
+        <item>доброй ночи</item>
+        <item>Обед готов</item>
+        <item>Завтрак готов</item>
+    </string-array>
+
+    <!-- <<================= RUSSIAN BASICS3 =================>> -->
+    <string-array name="QRussian_Basics3">
+        <item>это не мой хлеб</item>
+        <item>это не мой хлеб на тарелке</item>
+        <item>мой стол</item>
+        <item>мой стул</item>
+    </string-array>
+
+</resources>

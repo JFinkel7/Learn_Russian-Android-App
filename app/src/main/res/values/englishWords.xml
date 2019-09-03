@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <<================= ENGLISH BASICS  =================>> -->
+    <!-- *** Level One (1) *** -->
+    <string-array name="QEnglish_BasicsLvl1">
+        <item>This is Sofia</item>
+        <item>I am Brian</item>
+        <item>I am Brian, and this is Sofia</item>
+        <item>My teacher is Dima</item>
+        <item>I am a Russian student</item>
+        <item>My professor teaches English</item>
+        <item>Brian is my Professor</item>
+        <item>This is my mentor</item>
+    </string-array>
+
+    <!-- *** Level Two (2) *** -->
+    <string-array name="QEnglish_BasicsLvl2">
+        <item>That Person</item>
+        <item>This is my Woman</item>
+        <item>He is a Man</item>
+        <item>She is a woman and he is a man</item>
+        <item>I understand the man</item>
+        <item>My family is here</item>
+        <item>Yes, I am here</item>
+        <item>Is my mom here?</item>
+        <item>My dad is there</item>
+        <item>Is my family here?</item>
+    </string-array>
+
+    <!-- <<================= ENGLISH BASICS2  =================>> -->
+    <string-array name="QEnglish_Basics2">
+        <item>good morning</item>
+        <item>good afternoon</item>
+        <item>good evening</item>
+        <item>good night</item>
+        <item>dinner is ready</item>
+        <item>breakfast is ready</item>
+    </string-array>
+
+    <!-- <<================= ENGLISH BASICS3  =================>> -->
+    <string-array name="QEnglish_Basics3">
+        <item name="not_bread">this is not my bread</item>
+        <item name="not_bread_on_plate">this is not my bread on the plate</item>
+        <item name="my_desk">my desk/table</item>
+        <item name="my_chair">my chair</item>
+    </string-array>
+
+</resources>

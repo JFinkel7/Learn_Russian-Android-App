@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/basics2_RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_light"
+    android:orientation="vertical"
+    tools:context="Basics2.Basics2"
+    tools:ignore="PrivateResource">
+
+    <!-- Progress Toolbar -->
+    <include
+        android:id="@+id/toolbar_ActivityBasics2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/_toolbar" />
+
+    <!-- ImageButton (Info) -->
+    <ImageButton
+        android:id="@+id/ImgBtn_Info"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/toolbar_ActivityBasics2"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"
+        android:onClick="ImgBtn_ShowLanguageTranslation"
+        app:srcCompat="@drawable/ic_info_black25dp"
+        tools:ignore="ContentDescription" />
+
+    <!-- ImageButton (Exit) -->
+    <ImageButton
+        android:id="@+id/ImgBtn_Exit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/ImgBtn_Info"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        android:onClick="ImgBtn_ExitBasics2"
+        app:srcCompat="@drawable/ic_exit_red25dp"
+        tools:ignore="ContentDescription" />
+
+    <!-- RussianWord Question TextView -->
+    <TextView
+        android:id="@+id/txtView_RussianQuestion"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="180dp"
+        android:drawableStart="@drawable/ic_volume25dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="28sp" />
+
+    <!-- TextView Instructions-->
+    <TextView
+        android:id="@+id/txtViewInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/txtView_RussianQuestion"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/means_what_in_english"
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="16sp" />
+
+    <!--Text Switcher-->
+    <TextSwitcher
+        android:id="@+id/txtSwitcher"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginTop="300dp"
+        android:background="@android:color/transparent"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        android:textAlignment="center" />
+
+    <!-- Next Word Button-->
+    <Button
+        android:id="@+id/btnNextWord"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_above="@+id/btnContinue"
+        android:layout_marginBottom="15dp"
+        android:background="@color/blue_Black"
+        android:elevation="4dp"
+        android:onClick="btnNextWord"
+        android:text="@string/next_word"
+        android:textColor="@color/blue_AquamarineLight"
+        android:textSize="25sp"
+        tools:ignore="OnClick" />
+
+    <!-- Continue Button-->
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/blue_Black"
+        android:elevation="4dp"
+        android:onClick="btnContinue"
+        android:text="@string/Continue"
+        android:textColor="@color/green_AquaDark0"
+        android:textSize="25sp"
+        tools:ignore="continue" />
+
+</RelativeLayout>

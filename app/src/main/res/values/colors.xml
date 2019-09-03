@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Info:
+       0 Being The Lightest and >  Being The Darkest
+       4 color Tag Categories :
+       Dark , Light, Bright , White, Black
+-->
+<resources>
+    <!-- Chosen Primaries -->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- Black -->
+    <color name="Black">#000000</color>
+    <color name="Silver">#C0C0C0</color>
+
+    <!-- White -->
+    <color name="White">#FFFFFF</color>
+
+    <!-- Blue - Light -->
+    <color name="blue_AquamarineLight">#95E0E8</color>
+    <color name="blue_Aqua">#00FFFF</color>
+    <color name="blue_Aquamarine">#7FFFD4</color>
+
+    <!-- Blue - Dark -->
+    <color name="blue_Blackish">#1F232F</color>
+    <color name="blue_Black">#171B24</color>
+    <color name="blue_PureBlack">#0F1218</color>
+
+    <!-- Purple -->
+
+    <!-- Pink -->
+
+    <!-- Red -->
+
+    <!-- Orange -->
+
+
+    <!-- Yellow -->
+    <color name="yellow_White2">#FFFDE7</color>
+    <color name="yellow_Beige">#ffe29f</color>
+    <color name="yellow_Khaki0">#F0E68C</color>
+
+    <!-- Green -->
+    <color name="green_AquaDark0">#66BB6A</color>
+
+    <!-- ↓ **** ======= Brick Color Pallets ======= **** ↓ -->
+
+
+    <!-- ↓ **** ======= Paper Color Pallets ======= **** ↓ -->
+
+    <!-- Black -->
+    <!-- Brown -->
+
+
+    <!-- Grey -->
+
+    <!-- White -->
+
+
+    <!-- Blue Light -->
+
+    <!-- Blue Dark -->
+
+    <!-- Purple -->
+
+
+    <!-- Pink -->
+
+    <!-- Red -->
+
+
+    <!-- Orange -->
+
+    <!-- Yellow -->
+
+
+    <!-- Green -->
+
+</resources>

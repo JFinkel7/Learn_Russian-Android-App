@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_PureBlack"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtView_LearnRussianTitle"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/blue_Blackish"
+        android:fontFamily="cursive"
+        android:padding="5dp"
+        android:text="@string/learn_russian"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="@color/yellow_White2"
+        android:textSize="55sp"
+        android:textStyle="italic|bold"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txtView_Basics"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/almendra_display"
+        android:text="@string/title_basics"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="@color/blue_Aquamarine"
+        android:textSize="40sp"
+        android:textStyle="normal|bold"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/btn_Basics"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:elevation="4dp"
+        android:onClick="btn_BasicsActivity"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/ic_single_hand_sprout_100px"
+        tools:ignore="ContentDescription"
+
+        />
+
+    <TextView
+        android:id="@+id/txtView_Basics2"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/almendra_display"
+        android:text="@string/basics_ii"
+        android:textAlignment="inherit"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="@color/blue_Aquamarine"
+        android:textSize="40sp"
+        android:textStyle="normal|bold"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/btn_Basics2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"
+        android:elevation="4dp"
+        android:onClick="btn_BasicsIIActivity"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/ic_duel_hand_sprout_100px"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txtView_Basics3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/almendra_display"
+        android:text="@string/basics_iii"
+        android:textAlignment="viewEnd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="@color/blue_Aquamarine"
+        android:textSize="40sp"
+        android:textStyle="normal|bold"
+        tools:ignore="ContentDescription,RtlCompat" />
+
+    <ImageButton
+        android:id="@+id/btn_Basics3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="45dp"
+        android:background="@android:color/transparent"
+        android:elevation="4dp"
+        android:onClick="btn_BasicsIIIActivity"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/ic_tri_hand_sprout_100px"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>

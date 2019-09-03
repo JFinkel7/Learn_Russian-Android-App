@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_light"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="Basics.BasicsMainMenu"
+    tools:ignore="PrivateResource">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_Black"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="2dp"
+            android:elevation="4dp"
+            android:fontFamily="@font/almendra_display"
+            android:gravity="center"
+            android:minHeight="?actionBarSize"
+            android:padding="@dimen/appbar_padding"
+            android:text="@string/Basics"
+            android:textAlignment="center"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+            android:textColor="@color/blue_Aquamarine"
+            android:textSize="40sp"
+            android:textStyle="bold|italic" />
+    </android.support.design.widget.AppBarLayout>
+
+    <Button
+        android:id="@+id/btnBasicsLvlOne"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="0.9"
+        android:background="@color/blue_Black"
+        android:elevation="4dp"
+        android:fontFamily="@font/almendra_display"
+        android:onClick="btn_BasicsLvlOne"
+        android:text="@string/level_1"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="@color/yellow_Khaki0"
+        android:textSize="45sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.5"
+        android:background="@android:color/transparent"
+        android:onClick="btn_MainActivity"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/russian_coat_of_arms_real_bronze"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btnBasicsLvlTwo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="0.9"
+        android:background="@color/blue_Black"
+        android:elevation="4dp"
+        android:fontFamily="@font/almendra_display"
+        android:onClick="btn_BasicsLvlTwo"
+        android:text="@string/level_2"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="@color/yellow_Beige"
+        android:textSize="45sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>

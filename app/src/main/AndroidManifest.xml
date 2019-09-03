@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jfinkelstudios.mobile.learnrussianbeta">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_russian_foreground"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--***Activities***-->
+        <!--Main Activity-->
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--Basics(I)-Main-Menu-->
+        <activity
+            android:name="Basics.BasicsMainMenu"
+            android:label="@string/title_basics"
+            android:theme="@style/AppTheme.SlidrActivtyThemeWithNoActionBar" />
+
+        <!--Basics(I)-Level(1)-->
+        <activity
+            android:name="Basics.BasicsLvlOne"
+            android:screenOrientation="portrait" />
+        <!--Basics(I)-Level(2)-->
+        <activity
+            android:name="Basics.BasicsLvlTwo"
+            android:screenOrientation="portrait" />
+        <!--Basics(II)-->
+        <activity
+            android:name="Basics2.Basics2"
+            android:theme="@style/AppTheme.SlidrActivtyThemeWithNoActionBar" />
+        <!--Basics(III)-->
+        <activity
+            android:name="Basics3.Basics3"
+            android:theme="@style/AppTheme.SlidrActivtyThemeWithNoActionBar" />
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+</manifest>

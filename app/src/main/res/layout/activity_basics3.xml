@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_material_light"
+    android:orientation="vertical"
+    tools:context="Basics3.Basics3"
+    tools:ignore="PrivateResource">
+
+    <!--Progress Bar-->
+    <include
+        android:id="@+id/toolbar_ActivityLevelOne"
+        layout="@layout/_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--Question-->
+    <TextView
+        android:id="@+id/txtView_EnglishQuestion"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="125dp"
+        android:drawableStart="@drawable/ic_volume25dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="25sp" />
+    <!--Radio Button Group-->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@android:color/transparent"
+        android:baselineAligned="false"
+        android:gravity="start"
+        android:orientation="vertical"
+        android:scaleX="1.00"
+        android:scaleY="1.00">
+
+        <RadioButton
+            android:id="@+id/radioBtn_A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:buttonTint="@color/blue_Black"
+            android:scaleX="1.25"
+            android:scaleY="1.25"
+            android:text="это не мой хлеб"
+            android:textColor="@color/Black"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:buttonTint="@color/blue_Black"
+            android:scaleX="1.25"
+            android:scaleY="1.25"
+            android:text="это не мой хлеб на тарелке"
+            android:textColor="@color/Black"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:buttonTint="@color/blue_Black"
+            android:scaleX="1.25"
+            android:scaleY="1.25"
+            android:text="мой стол"
+            android:textColor="@color/Black"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:buttonTint="@color/blue_Black"
+            android:scaleX="1.25"
+            android:scaleY="1.25"
+            android:text="мой стул"
+            android:textColor="@color/Black"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <!--Confirm-->
+    <Button
+        android:id="@+id/BtnConfirmQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@color/blue_Black"
+        android:elevation="4dp"
+        android:onClick="btn_Continue"
+        android:text="@string/Continue"
+        android:textColor="@color/green_AquaDark0"
+        android:textSize="25sp" />
+
+</RelativeLayout>

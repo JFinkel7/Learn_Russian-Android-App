@@ -1,0 +1,18 @@
+<resources>
+    <!-- <<============ Configured Strings(Texts) ============>> -->
+    <string name="app_name">Learn Russian Beta</string>
+    <string name="translation_info">Translation Info</string>
+    <string name="Exit">Exit</string>
+    <string name="learn_russian">Learn Russian</string>
+    <string name="title_basics">Basics</string>
+    <string name="level_1">Level 1</string>
+    <string name="level_2">Level 2</string>
+    <string name="Basics">~ Basics ~</string>
+    <string name="basics_ii">Basics( II )</string>
+    <string name="basics_iii">Basics( III )</string>
+    <string name="Continue">Continue</string>
+    <string name="enter_your_answer">Enter Your Answer</string>
+    <string name="next_word">Next Word</string>
+    <string name="means_what_in_english">Means What In English?</string>
+
+</resources>
