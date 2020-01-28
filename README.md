@@ -2,6 +2,6 @@
 A Language App That Helps You Learn Russian 
 
 <--Future Updates--> 
-NOTE: Add More Section
-NOTE: Add More Words
-NOTE: Add Videos
+(1) Add More Section,
+(2) Add More Words,
+(3) Add Videos
