@@ -1,4 +1,7 @@
 # Learn_Russian_Beta
 A Language App That Helps You Learn Russian 
 
-NOTE: App UI Could Use Some Improvments
+<--Future Updates--> 
+NOTE: Add More Section
+NOTE: Add More Words
+NOTE: Add Videos
